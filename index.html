@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel-Lara - Portfólio</title>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Emmanuel-Lara 💼</div>
+        <nav id="nav-menu">
+            <a href="#hero">Início</a>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Abrir Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <main id="hero" class="hero">
+        <div class="hero-content">
+            <h1 data-aos="fade-down">Olá, sou o Emmanuel.</h1>
+            <p class="subtitle" data-aos="fade-down" data-aos-delay="300">Um programador em constante aprendizado, apaixonado por jogos e desenvolvimento de sites e aplicações.</p>
+            
+            <a href="#projetos" class="cta-button" data-aos="zoom-in" data-aos-delay="600">Ver Meus Projetos</a>
+            <a href="#contato" class="cta-button secondary-cta" data-aos="zoom-in" data-aos-delay="800">Entre em Contato</a>
+        </div>
+    </main>
+    
+    <section id="sobre" class="section-padded about">
+        <h2 data-aos="fade-up">Sobre Mim</h2>
+        <div class="about-content">
+            <img src="fotos/me.png" alt="Sua Foto de Perfil" class="about-photo" data-aos="fade-right"> 
+            <p data-aos="fade-left" data-aos-delay="100">
+                Olá! Sou o Emmanuel, um programador com 16 anos e com experiência suficiente para fazer trabalhos indepentes em WebDesign, Criação de sites, apps e softwares. 
+                Minha paixão reside em ficar na frente do computador e criar projetos incriveis. Sempre busco melhorar e dar o meu melhor para poder aumentar minhas abilidades, mesmo sem saber eu busco aprender para resolver e solucionar o problema que tiver.
+            </p>
+            <p data-aos="fade-left" data-aos-delay="300">
+                Trabalhei em projetos envolvendo sites em JavaScript, HTLM e CSS, trabalhei em jogos básicos mudando design e forma de funcionamento dele. 
+                Estou sempre aprendendo e me aprimorando para entregar soluções criativas e eficazes.
+            </p>
+            <a href="arquivos/curriculo.pdf" target="_blank" class="download-cv" data-aos="zoom-in" data-aos-delay="500">
+                <i class="fas fa-download"></i> Baixar Currículo
+            </a>
+        </div>
+    </section>
+
+    <section id="habilidades" class="section-padded skills">
+        <h2 data-aos="fade-up">Minhas Habilidades</h2>
+        <div class="skills-grid">
+            <div class="skill-item" data-aos="fade-up">
+                <i class="fas fa-code skill-icon"></i>
+                <h3>Desenvolvimento Web</h3>
+                <p>HTML, CSS, JavaScript, Python, Node.js</p>
+            </div>
+            <div class="skill-item" data-aos="fade-up" data-aos-delay="150">
+                <i class="fas fa-paint-brush skill-icon"></i>
+                <h3>Design Gráfico</h3>
+                <p>Photoshop, Canva, Lightroom</p>
+            </div>
+            <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-database skill-icon"></i>
+                <h3>Banco de Dados</h3>
+                <p>SQL, Django, PostgreSQL, SQLite</p>
+            </div>
+            <div class="skill-item" data-aos="fade-up" data-aos-delay="450">
+                <i class="fas fa-mobile-alt skill-icon"></i>
+                <h3>Desenvolvimento Mobile</h3>
+                <p>React Native, Flutter, Swift</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="section-padded projects">
+        <h2 data-aos="fade-up">Meus Projetos Recentes</h2>
+        <div class="project-grid">
+            <div class="project-item" data-aos="fade-right"> 
+                <img src="fotos/mypage.jpg" alt="Projeto Sobre Mim-IFRJ">
+                <h3>My Page - IFRJ Instituto Federal do Rio de Janeiro</h3>
+                <p>Este foi meu primeiro site criado como trabalho para minha escola, e esta pagina irá contar sobre a mim e minha esperiência assistindo o filme "Jurassic Park" e lendo "Harry Potter e a Pedra Filosofal".</p>
+                <div class="project-links">
+                    <a href="https://oemlara.github.io/mypage/" target="_blank"><i class="fas fa-link"></i> Ver Demo</a>
+                    <a href="https://github.com/OemLara/mypage" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+            <div class="project-item" data-aos="fade-up">
+                <img src="fotos/Bird.png" alt="Jogo Bird">
+                <h3>Minha versão do Flappy Bird</h3>
+                <p>Nesta página eu mostro o minha primeira vez aprendendo a criar e modelar um jogo, minha primeira vez com Modelagem orientada a Objetos, e recriando o jogo "Flappy Bird" com um modelo bem básico.</p>
+                <div class="project-links">
+                    <a href="https://oemlara.github.io/Jogo-Bird/" target="_blank"><i class="fas fa-link"></i> Ver Demo</a>
+                    <a href="https://github.com/OemLara/Jogo-Bird" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+            <div class="project-item" data-aos="fade-left"> 
+                <img src="fotos/MondernFood.png" alt="Modern Food">
+                <h3>Modern Food</h3>
+                <p>Site de comida de alto nível com design premium e experiência do usuário excepcional. 
+                Totalmente responsivo, apresentando interface moderna, navegação intuitiva e performance otimizada. Desenvolvido para oferecer uma experiência de compra sofisticada e memorável. </p>
+                <div class="project-links">
+                    <a href="https://oemlara.github.io/Modern-Food/" target="_blank"><i class="fas fa-link"></i> Ver Demo</a>
+                    <a href="https://github.com/OemLara/Modern-Food" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section-padded contact">
+        <h2 data-aos="fade-up">Entre em Contato</h2>
+        <p class="contact-intro" data-aos="fade-up" data-aos-delay="200">Tenho interesse em novas oportunidades e colaborações. Ficarei feliz em conversar com você!</p>
+        <form class="contact-form" data-aos="flip-up" data-aos-delay="400">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <button type="submit" class="cta-button">Enviar Mensagem</button>
+        </form>
+        <div class="social-links" data-aos="zoom-in" data-aos-delay="600">
+            <a href="https://www.linkedin.com/in/emmanuel-lara-6aba18355/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/OemLara" target="_blank" aria-label="GitHub"><i class="fab fa-github fa-2x"></i></a>
+            <a href="mailto:emmanu3l.lara@gmail.com" aria-label="Email"><i class="fas fa-envelope fa-2x"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Emmanuel Lara Nascimento Camillo Alves. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
